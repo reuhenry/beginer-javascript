@@ -30,6 +30,7 @@ let decimalNumber= 1.8
 let decimalNumber2=1.5
 let decimalNumber3=1.2
 
+// This is how you round a number
 console.log(Math.round(decimalNumber))
 console.log(Math.round(decimalNumber2))
 console.log(Math.round(decimalNumber3))
@@ -38,14 +39,17 @@ let decimalNumber4=1.8
 let decimalNumber5=1.5
 let decimalNumber6=1.2
 
+// This is how you round  down a number
 console.log(Math.floor(decimalNumber4))
 console.log(Math.floor(decimalNumber5))
 console.log(Math.floor(decimalNumber6))
+
 
 let decimalNumber7=1.8
 let decimalNumber8=1.5
 let decimalNumber9=1.2
 
+//This is howyou round up a number
 console.log(Math.ceil(decimalNumber7))
 console.log(Math.ceil(decimalNumber8))
 console.log(Math.ceil(decimalNumber9))
