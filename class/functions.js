@@ -57,7 +57,7 @@ function getSum () {
         console.log(checkifPerson())
 
         const checkGrade =()=> {
-         let marks=70
+         let marks='haueodnb'
 
          if (  marks >= 85 && marks <= 100) {
             return 'A'
@@ -83,23 +83,48 @@ function getSum () {
             return 'D-'
         } else if (marks >=0 && marks <= 34){
             return 'E'  
-        }
+        } else {
+         return 'Marks not valid'
      }
-         console.log(checkGrade())
+   }
+console.log(checkGrade())
 
-          const checkGuidelines =()=> {
-            let temperature=29
-            
-          if (temperature >30){
-            return'wear shorts and t-shirts'
-          } else if(temperature >=20 && temperature <= 29){
-            return'wear pants and long-sleeve shirt'
-          } else if(temperature <20){
-            return'wear jacket or sweater'
-          }
-        }
-    
 
-        console.log(checkGuidelines())
+const checkGuidelines =()=> {
+   let temperature=30
+
+   if (temperature >=30){
+      return 'wear shorts and t-shirts'
+   } else if(temperature >=20 && temperature <= 29){
+      return 'wear pants and long-sleeve shirt'
+   } else if(temperature <20){
+      return 'wear jacket or sweater'
+   } else {
+      return 'temperatures are not valid'
+}
+}
+
+console.log(checkGuidelines())
      
-    
+  const getSum1=(num1,num2,num3)=> {
+    let sum=num1 + num2 + num3
+    return sum
+  }
+   console.log(getSum1(29,20,15))
+
+const getJoinedStrings=(firstName,lastName)=> {
+  let joinedStrings=firstName + lastName
+  return joinedStrings
+}
+
+console.log(getJoinedStrings( 'Jane', ' doe'))
+
+  const getDifference1 =(num3,num4)=>  {
+
+   let difference=num3 - num4
+   return difference
+   
+}
+  console.log(getDifference1(40,30))
+
+
