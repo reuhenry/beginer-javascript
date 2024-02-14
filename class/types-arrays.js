@@ -187,3 +187,42 @@ let sum=0;
     for(let j=0;j<ages.length;j++)
     {totalAges +=ages[j];}
     console.log(totalAges)
+
+    let totalPrices=prices.reduce((a,b)=>{
+        return a + b
+    })
+    console.log(totalPrices)
+
+    let ageSum=ages.reduce((a,b)=>{
+        return a+b
+    })
+    console.log(ageSum)
+
+    let numberSum=numbers.reduce((a,b)=>{
+        return a+b
+    })
+    console.log(numberSum)
+
+    let markSum=marks.reduce((a,b)=>{
+        return a,b
+    })
+    console.log(markSum)
+
+    let studentsMrks=Students.reduce((a,b)=>{
+        return a+b.marks
+    }, 0)
+    console.log(studentsMrks)
+
+    let studentsAges=Students.reduce((a,b)=>{
+        return a+b.age
+    }, 0)
+    console.log(studentsAges)
+
+    let studentsId=Students.reduce((a,b)=>{
+        return a+b.id
+    } , 0)
+    console.log(studentsId)
+   let peoplesAges=people.reduce((a,b)=>{
+    return a+b.age
+   }, 0)
+   console.log(peoplesAges)
